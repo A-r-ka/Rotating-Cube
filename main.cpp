@@ -5,7 +5,7 @@
 #include <iostream>
 #include <cstring>
 #include <unistd.h>
-#include "CubeSurface.h"
+#include "CubeSurface.hpp"
 
 #define WIDTH 160
 #define HEIGHT 44

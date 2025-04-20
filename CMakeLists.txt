@@ -7,6 +7,6 @@ include_directories(.)
 
 add_executable(RotatingCube
         main.cpp
-        ./definitions/CubeSurface.cpp
-        ./definitions/MatrixOperations.cpp
+        definitions/CubeSurface.cpp
+        definitions/MatrixOperations.cpp
 )

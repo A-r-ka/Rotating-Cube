@@ -2,8 +2,8 @@
 // Created by Elon Pereira Neto on 19/04/25.
 //
 
-#include "MatrixOperations.h"
-#include "CubeSurface.h"
+#include "MatrixOperations.hpp"
+#include "CubeSurface.hpp"
 
 void CubeSurface::calculateSurface(const float angle, const float perspective, const float cubeX, const float cubeY, const float cubeZ) const {
     float* vector = rotate(angle, cubeX, cubeY, cubeZ);
