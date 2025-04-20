@@ -12,6 +12,7 @@
 #define CUBE_SIZE 10
 #define SURFACE_CHAR '*'
 #define SURFACE_COLOR "35"
+#define ANGLE_INCREMENT 0.02
 #define DISTANCE_FROM_CAM 100
 #define INCREMENT_SPEED 0.5
 
@@ -46,7 +47,7 @@ void main() {
             }
         }
 
-        angle += 0.02;
+        angle += ANGLE_INCREMENT;
         printBuffer(buffer, WIDTH, HEIGHT);
         usleep(10000);
 
