@@ -13,6 +13,7 @@
 #define SURFACE_CHAR '*'
 #define SURFACE_COLOR "35"
 #define ANGLE_INCREMENT 0.02
+#define PERSPECTIVE 40
 #define DISTANCE_FROM_CAM 100
 #define INCREMENT_SPEED 0.5
 
@@ -38,12 +39,12 @@ void main() {
 
         for (float cubeX = -CUBE_SIZE; cubeX < CUBE_SIZE; cubeX += INCREMENT_SPEED) {
             for (float cubeY = -CUBE_SIZE; cubeY < CUBE_SIZE; cubeY += INCREMENT_SPEED) {
-                cubeSurface.calculateSurface(angle, 40, cubeX, cubeY, -CUBE_SIZE);
-                cubeSurface2.calculateSurface(angle, 40, CUBE_SIZE, cubeY, cubeX);
-                cubeSurface3.calculateSurface(angle, 40, -CUBE_SIZE, cubeY, -cubeX);
-                cubeSurface4.calculateSurface(angle, 40, -cubeX, cubeY, CUBE_SIZE);
-                cubeSurface5.calculateSurface(angle, 40, cubeX, -CUBE_SIZE, -cubeY);
-                cubeSurface6.calculateSurface(angle, 40, cubeX, CUBE_SIZE, cubeY);
+                cubeSurface.calculateSurface(angle, PERSPECTIVE, cubeX, cubeY, -CUBE_SIZE);
+                cubeSurface2.calculateSurface(angle, PERSPECTIVE, CUBE_SIZE, cubeY, cubeX);
+                cubeSurface3.calculateSurface(angle, PERSPECTIVE, -CUBE_SIZE, cubeY, -cubeX);
+                cubeSurface4.calculateSurface(angle, PERSPECTIVE, -cubeX, cubeY, CUBE_SIZE);
+                cubeSurface5.calculateSurface(angle, PERSPECTIVE, cubeX, -CUBE_SIZE, -cubeY);
+                cubeSurface6.calculateSurface(angle, PERSPECTIVE, cubeX, CUBE_SIZE, cubeY);
             }
         }
 
