@@ -61,8 +61,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/Users/arkanight/Desktop/Programac\u0327ao/Cpp Files/RotatingCube/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-T71MW0"
-      binary: "/Users/arkanight/Desktop/Programac\u0327ao/Cpp Files/RotatingCube/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-T71MW0"
+      source: "/Users/arkanight/Desktop/Programac\u0327ao/Cpp Files/RotatingCube/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-GIXrmp"
+      binary: "/Users/arkanight/Desktop/Programac\u0327ao/Cpp Files/RotatingCube/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-GIXrmp"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -74,10 +74,12 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/arkanight/Desktop/Programaçao/Cpp Files/RotatingCube/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-T71MW0'
+        Change Dir: '/Users/arkanight/Desktop/Programaçao/Cpp Files/RotatingCube/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-GIXrmp'
         
-        Run Build Command(s): /Applications/CLion.app/Contents/bin/ninja/mac/x64/ninja -v cmTC_5f2f1
-        [1/2] /usr/local/bin/gcc-14   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk -fdiagnostics-color=always   -v -Wl,-v -o CMakeFiles/cmTC_5f2f1.dir/CMakeCCompilerABI.c.o -c /Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.31/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_7d2a4/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_7d2a4.dir/build.make CMakeFiles/cmTC_7d2a4.dir/build
+        Building C object CMakeFiles/cmTC_7d2a4.dir/CMakeCCompilerABI.c.o
+        /usr/local/bin/gcc-14   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk -fdiagnostics-color=always   -v -Wl,-v -o CMakeFiles/cmTC_7d2a4.dir/CMakeCCompilerABI.c.o -c /Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.31/Modules/CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=/usr/local/bin/gcc-14
         Target: x86_64-apple-darwin24
@@ -85,8 +87,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 14.2.0 (Homebrew GCC 14.2.0_1) 
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk' '-v' '-o' 'CMakeFiles/cmTC_5f2f1.dir/CMakeCCompilerABI.c.o' '-c' '-mmacosx-version-min=15.0.0' '-asm_macosx_version_min=15.0' '-nodefaultexport' '-mtune=core2' '-dumpdir' 'CMakeFiles/cmTC_5f2f1.dir/'
-         /usr/local/Cellar/gcc/14.2.0_1/bin/../libexec/gcc/x86_64-apple-darwin24/14/cc1 -quiet -v -iprefix /usr/local/Cellar/gcc/14.2.0_1/bin/../lib/gcc/current/gcc/x86_64-apple-darwin24/14/ -D__DYNAMIC__ -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk /Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.31/Modules/CMakeCCompilerABI.c -fPIC -quiet -dumpdir CMakeFiles/cmTC_5f2f1.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mmacosx-version-min=15.0.0 -mtune=core2 -version -fdiagnostics-color=always -o /var/folders/df/v2kw0d8j5jq8w_g2j327hfbr0000gn/T//ccW5esrf.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk' '-v' '-o' 'CMakeFiles/cmTC_7d2a4.dir/CMakeCCompilerABI.c.o' '-c' '-mmacosx-version-min=15.0.0' '-asm_macosx_version_min=15.0' '-nodefaultexport' '-mtune=core2' '-dumpdir' 'CMakeFiles/cmTC_7d2a4.dir/'
+         /usr/local/Cellar/gcc/14.2.0_1/bin/../libexec/gcc/x86_64-apple-darwin24/14/cc1 -quiet -v -iprefix /usr/local/Cellar/gcc/14.2.0_1/bin/../lib/gcc/current/gcc/x86_64-apple-darwin24/14/ -D__DYNAMIC__ -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk /Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.31/Modules/CMakeCCompilerABI.c -fPIC -quiet -dumpdir CMakeFiles/cmTC_7d2a4.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mmacosx-version-min=15.0.0 -mtune=core2 -version -fdiagnostics-color=always -o /var/folders/df/v2kw0d8j5jq8w_g2j327hfbr0000gn/T//ccFGxhJU.s
         GNU C17 (Homebrew GCC 14.2.0_1) version 14.2.0 (x86_64-apple-darwin24)
         	compiled by GNU C version 14.2.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version isl-0.27-GMP
         
@@ -105,17 +107,18 @@ events:
          /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/System/Library/Frameworks
         End of search list.
         Compiler executable checksum: 999b4e6dd7382154af741e31cce5c2b8
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk' '-v' '-o' 'CMakeFiles/cmTC_5f2f1.dir/CMakeCCompilerABI.c.o' '-c' '-mmacosx-version-min=15.0.0'  '-nodefaultexport' '-mtune=core2' '-dumpdir' 'CMakeFiles/cmTC_5f2f1.dir/'
-         as -arch x86_64 -v -mmacosx-version-min=15.0 -mllvm -x86-pad-for-align=false -force_cpusubtype_ALL -o CMakeFiles/cmTC_5f2f1.dir/CMakeCCompilerABI.c.o /var/folders/df/v2kw0d8j5jq8w_g2j327hfbr0000gn/T//ccW5esrf.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk' '-v' '-o' 'CMakeFiles/cmTC_7d2a4.dir/CMakeCCompilerABI.c.o' '-c' '-mmacosx-version-min=15.0.0'  '-nodefaultexport' '-mtune=core2' '-dumpdir' 'CMakeFiles/cmTC_7d2a4.dir/'
+         as -arch x86_64 -v -mmacosx-version-min=15.0 -mllvm -x86-pad-for-align=false -force_cpusubtype_ALL -o CMakeFiles/cmTC_7d2a4.dir/CMakeCCompilerABI.c.o /var/folders/df/v2kw0d8j5jq8w_g2j327hfbr0000gn/T//ccFGxhJU.s
         Apple clang version 17.0.0 (clang-1700.0.13.3)
         Target: x86_64-apple-darwin24.4.0
         Thread model: posix
         InstalledDir: /Library/Developer/CommandLineTools/usr/bin
-         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1as -triple x86_64-apple-macosx15.0.0 -target-sdk-version=15.4 -filetype obj -main-file-name ccW5esrf.s -target-cpu penryn "-fdebug-compilation-dir=/Users/arkanight/Desktop/Programaçao/Cpp Files/RotatingCube/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-T71MW0" -dwarf-debug-producer "Apple clang version 17.0.0 (clang-1700.0.13.3)" -dwarf-version=5 -mrelocation-model pic -mllvm -x86-pad-for-align=false -o CMakeFiles/cmTC_5f2f1.dir/CMakeCCompilerABI.c.o /var/folders/df/v2kw0d8j5jq8w_g2j327hfbr0000gn/T//ccW5esrf.s
+         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1as -triple x86_64-apple-macosx15.0.0 -target-sdk-version=15.4 -filetype obj -main-file-name ccFGxhJU.s -target-cpu penryn "-fdebug-compilation-dir=/Users/arkanight/Desktop/Programaçao/Cpp Files/RotatingCube/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-GIXrmp" -dwarf-debug-producer "Apple clang version 17.0.0 (clang-1700.0.13.3)" -dwarf-version=5 -mrelocation-model pic -mllvm -x86-pad-for-align=false -o CMakeFiles/cmTC_7d2a4.dir/CMakeCCompilerABI.c.o /var/folders/df/v2kw0d8j5jq8w_g2j327hfbr0000gn/T//ccFGxhJU.s
         COMPILER_PATH=/usr/local/Cellar/gcc/14.2.0_1/bin/../libexec/gcc/x86_64-apple-darwin24/14/:/usr/local/Cellar/gcc/14.2.0_1/bin/../libexec/gcc/
         LIBRARY_PATH=/usr/local/Cellar/gcc/14.2.0_1/bin/../lib/gcc/current/gcc/x86_64-apple-darwin24/14/:/usr/local/Cellar/gcc/14.2.0_1/bin/../lib/gcc/current/gcc/:/usr/local/Cellar/gcc/14.2.0_1/bin/../lib/gcc/current/gcc/x86_64-apple-darwin24/14/../../../
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk' '-v' '-o' 'CMakeFiles/cmTC_5f2f1.dir/CMakeCCompilerABI.c.o' '-c' '-mmacosx-version-min=15.0.0'  '-nodefaultexport' '-mtune=core2' '-dumpdir' 'CMakeFiles/cmTC_5f2f1.dir/CMakeCCompilerABI.c.'
-        [2/2] : && /usr/local/bin/gcc-14 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v -Wl,-v CMakeFiles/cmTC_5f2f1.dir/CMakeCCompilerABI.c.o -o cmTC_5f2f1   && :
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk' '-v' '-o' 'CMakeFiles/cmTC_7d2a4.dir/CMakeCCompilerABI.c.o' '-c' '-mmacosx-version-min=15.0.0'  '-nodefaultexport' '-mtune=core2' '-dumpdir' 'CMakeFiles/cmTC_7d2a4.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_7d2a4
+        /Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7d2a4.dir/link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=/usr/local/bin/gcc-14
         COLLECT_LTO_WRAPPER=/usr/local/Cellar/gcc/14.2.0_1/bin/../libexec/gcc/x86_64-apple-darwin24/14/lto-wrapper
@@ -126,10 +129,10 @@ events:
         gcc version 14.2.0 (Homebrew GCC 14.2.0_1) 
         COMPILER_PATH=/usr/local/Cellar/gcc/14.2.0_1/bin/../libexec/gcc/x86_64-apple-darwin24/14/:/usr/local/Cellar/gcc/14.2.0_1/bin/../libexec/gcc/
         LIBRARY_PATH=/usr/local/Cellar/gcc/14.2.0_1/bin/../lib/gcc/current/gcc/x86_64-apple-darwin24/14/:/usr/local/Cellar/gcc/14.2.0_1/bin/../lib/gcc/current/gcc/:/usr/local/Cellar/gcc/14.2.0_1/bin/../lib/gcc/current/gcc/x86_64-apple-darwin24/14/../../../
-        COLLECT_GCC_OPTIONS='-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk' '-v' '-o' 'cmTC_5f2f1' '-mmacosx-version-min=15.0.0' '-asm_macosx_version_min=15.0' '-nodefaultexport' '-mtune=core2' '-dumpdir' 'cmTC_5f2f1.'
-         /usr/local/Cellar/gcc/14.2.0_1/bin/../libexec/gcc/x86_64-apple-darwin24/14/collect2 -demangle -dynamic -arch x86_64 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk -platform_version macos 15.0.0 0.0 -o cmTC_5f2f1 -L/usr/local/Cellar/gcc/14.2.0_1/bin/../lib/gcc/current/gcc/x86_64-apple-darwin24/14 -L/usr/local/Cellar/gcc/14.2.0_1/bin/../lib/gcc/current/gcc -L/usr/local/Cellar/gcc/14.2.0_1/bin/../lib/gcc/current/gcc/x86_64-apple-darwin24/14/../../.. -lemutls_w -lheapt_w -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_5f2f1.dir/CMakeCCompilerABI.c.o -lgcc -lSystem -no_compact_unwind -rpath @loader_path -rpath /usr/local/Cellar/gcc/14.2.0_1/lib/gcc/current/gcc/x86_64-apple-darwin24/14 -rpath /usr/local/Cellar/gcc/14.2.0_1/lib/gcc/current/gcc -rpath /usr/local/Cellar/gcc/14.2.0_1/lib/gcc/current
+        COLLECT_GCC_OPTIONS='-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk' '-v' '-o' 'cmTC_7d2a4' '-mmacosx-version-min=15.0.0' '-asm_macosx_version_min=15.0' '-nodefaultexport' '-mtune=core2' '-dumpdir' 'cmTC_7d2a4.'
+         /usr/local/Cellar/gcc/14.2.0_1/bin/../libexec/gcc/x86_64-apple-darwin24/14/collect2 -demangle -dynamic -arch x86_64 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk -platform_version macos 15.0.0 0.0 -o cmTC_7d2a4 -L/usr/local/Cellar/gcc/14.2.0_1/bin/../lib/gcc/current/gcc/x86_64-apple-darwin24/14 -L/usr/local/Cellar/gcc/14.2.0_1/bin/../lib/gcc/current/gcc -L/usr/local/Cellar/gcc/14.2.0_1/bin/../lib/gcc/current/gcc/x86_64-apple-darwin24/14/../../.. -lemutls_w -lheapt_w -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_7d2a4.dir/CMakeCCompilerABI.c.o -lgcc -lSystem -no_compact_unwind -rpath @loader_path -rpath /usr/local/Cellar/gcc/14.2.0_1/lib/gcc/current/gcc/x86_64-apple-darwin24/14 -rpath /usr/local/Cellar/gcc/14.2.0_1/lib/gcc/current/gcc -rpath /usr/local/Cellar/gcc/14.2.0_1/lib/gcc/current
         collect2 version 14.2.0
-        /usr/bin/ld -demangle -dynamic -arch x86_64 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk -platform_version macos 15.0.0 0.0 -o cmTC_5f2f1 -L/usr/local/Cellar/gcc/14.2.0_1/bin/../lib/gcc/current/gcc/x86_64-apple-darwin24/14 -L/usr/local/Cellar/gcc/14.2.0_1/bin/../lib/gcc/current/gcc -L/usr/local/Cellar/gcc/14.2.0_1/bin/../lib/gcc/current/gcc/x86_64-apple-darwin24/14/../../.. -lemutls_w -lheapt_w -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_5f2f1.dir/CMakeCCompilerABI.c.o -lgcc -lSystem -no_compact_unwind -rpath @loader_path -rpath /usr/local/Cellar/gcc/14.2.0_1/lib/gcc/current/gcc/x86_64-apple-darwin24/14 -rpath /usr/local/Cellar/gcc/14.2.0_1/lib/gcc/current/gcc -rpath /usr/local/Cellar/gcc/14.2.0_1/lib/gcc/current
+        /usr/bin/ld -demangle -dynamic -arch x86_64 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk -platform_version macos 15.0.0 0.0 -o cmTC_7d2a4 -L/usr/local/Cellar/gcc/14.2.0_1/bin/../lib/gcc/current/gcc/x86_64-apple-darwin24/14 -L/usr/local/Cellar/gcc/14.2.0_1/bin/../lib/gcc/current/gcc -L/usr/local/Cellar/gcc/14.2.0_1/bin/../lib/gcc/current/gcc/x86_64-apple-darwin24/14/../../.. -lemutls_w -lheapt_w -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_7d2a4.dir/CMakeCCompilerABI.c.o -lgcc -lSystem -no_compact_unwind -rpath @loader_path -rpath /usr/local/Cellar/gcc/14.2.0_1/lib/gcc/current/gcc/x86_64-apple-darwin24/14 -rpath /usr/local/Cellar/gcc/14.2.0_1/lib/gcc/current/gcc -rpath /usr/local/Cellar/gcc/14.2.0_1/lib/gcc/current
         @(#)PROGRAM:ld PROJECT:ld-1167.4.1
         BUILD 19:59:02 Mar 12 2025
         configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
@@ -144,6 +147,7 @@ events:
         	/Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/usr/lib/swift
         Framework search paths:
         	/Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/System/Library/Frameworks
+        /usr/local/bin/gcc-14  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_7d2a4.dir/CMakeCCompilerABI.c.o -o cmTC_7d2a4
         
       exitCode: 0
   -
@@ -187,10 +191,12 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
-        ignore line: [Change Dir: '/Users/arkanight/Desktop/Programaçao/Cpp Files/RotatingCube/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-T71MW0']
+        ignore line: [Change Dir: '/Users/arkanight/Desktop/Programaçao/Cpp Files/RotatingCube/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-GIXrmp']
         ignore line: []
-        ignore line: [Run Build Command(s): /Applications/CLion.app/Contents/bin/ninja/mac/x64/ninja -v cmTC_5f2f1]
-        ignore line: [[1/2] /usr/local/bin/gcc-14   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk -fdiagnostics-color=always   -v -Wl -v -o CMakeFiles/cmTC_5f2f1.dir/CMakeCCompilerABI.c.o -c /Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.31/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_7d2a4/fast]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_7d2a4.dir/build.make CMakeFiles/cmTC_7d2a4.dir/build]
+        ignore line: [Building C object CMakeFiles/cmTC_7d2a4.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/local/bin/gcc-14   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk -fdiagnostics-color=always   -v -Wl -v -o CMakeFiles/cmTC_7d2a4.dir/CMakeCCompilerABI.c.o -c /Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.31/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/local/bin/gcc-14]
         ignore line: [Target: x86_64-apple-darwin24]
@@ -198,8 +204,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 14.2.0 (Homebrew GCC 14.2.0_1) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk' '-v' '-o' 'CMakeFiles/cmTC_5f2f1.dir/CMakeCCompilerABI.c.o' '-c' '-mmacosx-version-min=15.0.0' '-asm_macosx_version_min=15.0' '-nodefaultexport' '-mtune=core2' '-dumpdir' 'CMakeFiles/cmTC_5f2f1.dir/']
-        ignore line: [ /usr/local/Cellar/gcc/14.2.0_1/bin/../libexec/gcc/x86_64-apple-darwin24/14/cc1 -quiet -v -iprefix /usr/local/Cellar/gcc/14.2.0_1/bin/../lib/gcc/current/gcc/x86_64-apple-darwin24/14/ -D__DYNAMIC__ -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk /Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.31/Modules/CMakeCCompilerABI.c -fPIC -quiet -dumpdir CMakeFiles/cmTC_5f2f1.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mmacosx-version-min=15.0.0 -mtune=core2 -version -fdiagnostics-color=always -o /var/folders/df/v2kw0d8j5jq8w_g2j327hfbr0000gn/T//ccW5esrf.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk' '-v' '-o' 'CMakeFiles/cmTC_7d2a4.dir/CMakeCCompilerABI.c.o' '-c' '-mmacosx-version-min=15.0.0' '-asm_macosx_version_min=15.0' '-nodefaultexport' '-mtune=core2' '-dumpdir' 'CMakeFiles/cmTC_7d2a4.dir/']
+        ignore line: [ /usr/local/Cellar/gcc/14.2.0_1/bin/../libexec/gcc/x86_64-apple-darwin24/14/cc1 -quiet -v -iprefix /usr/local/Cellar/gcc/14.2.0_1/bin/../lib/gcc/current/gcc/x86_64-apple-darwin24/14/ -D__DYNAMIC__ -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk /Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.31/Modules/CMakeCCompilerABI.c -fPIC -quiet -dumpdir CMakeFiles/cmTC_7d2a4.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mmacosx-version-min=15.0.0 -mtune=core2 -version -fdiagnostics-color=always -o /var/folders/df/v2kw0d8j5jq8w_g2j327hfbr0000gn/T//ccFGxhJU.s]
         ignore line: [GNU C17 (Homebrew GCC 14.2.0_1) version 14.2.0 (x86_64-apple-darwin24)]
         ignore line: [	compiled by GNU C version 14.2.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.3.1  isl version isl-0.27-GMP]
         ignore line: []
@@ -218,17 +224,18 @@ events:
         ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/System/Library/Frameworks]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 999b4e6dd7382154af741e31cce5c2b8]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk' '-v' '-o' 'CMakeFiles/cmTC_5f2f1.dir/CMakeCCompilerABI.c.o' '-c' '-mmacosx-version-min=15.0.0'  '-nodefaultexport' '-mtune=core2' '-dumpdir' 'CMakeFiles/cmTC_5f2f1.dir/']
-        ignore line: [ as -arch x86_64 -v -mmacosx-version-min=15.0 -mllvm -x86-pad-for-align=false -force_cpusubtype_ALL -o CMakeFiles/cmTC_5f2f1.dir/CMakeCCompilerABI.c.o /var/folders/df/v2kw0d8j5jq8w_g2j327hfbr0000gn/T//ccW5esrf.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk' '-v' '-o' 'CMakeFiles/cmTC_7d2a4.dir/CMakeCCompilerABI.c.o' '-c' '-mmacosx-version-min=15.0.0'  '-nodefaultexport' '-mtune=core2' '-dumpdir' 'CMakeFiles/cmTC_7d2a4.dir/']
+        ignore line: [ as -arch x86_64 -v -mmacosx-version-min=15.0 -mllvm -x86-pad-for-align=false -force_cpusubtype_ALL -o CMakeFiles/cmTC_7d2a4.dir/CMakeCCompilerABI.c.o /var/folders/df/v2kw0d8j5jq8w_g2j327hfbr0000gn/T//ccFGxhJU.s]
         ignore line: [Apple clang version 17.0.0 (clang-1700.0.13.3)]
         ignore line: [Target: x86_64-apple-darwin24.4.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
-        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1as -triple x86_64-apple-macosx15.0.0 -target-sdk-version=15.4 -filetype obj -main-file-name ccW5esrf.s -target-cpu penryn "-fdebug-compilation-dir=/Users/arkanight/Desktop/Programaçao/Cpp Files/RotatingCube/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-T71MW0" -dwarf-debug-producer "Apple clang version 17.0.0 (clang-1700.0.13.3)" -dwarf-version=5 -mrelocation-model pic -mllvm -x86-pad-for-align=false -o CMakeFiles/cmTC_5f2f1.dir/CMakeCCompilerABI.c.o /var/folders/df/v2kw0d8j5jq8w_g2j327hfbr0000gn/T//ccW5esrf.s]
+        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1as -triple x86_64-apple-macosx15.0.0 -target-sdk-version=15.4 -filetype obj -main-file-name ccFGxhJU.s -target-cpu penryn "-fdebug-compilation-dir=/Users/arkanight/Desktop/Programaçao/Cpp Files/RotatingCube/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-GIXrmp" -dwarf-debug-producer "Apple clang version 17.0.0 (clang-1700.0.13.3)" -dwarf-version=5 -mrelocation-model pic -mllvm -x86-pad-for-align=false -o CMakeFiles/cmTC_7d2a4.dir/CMakeCCompilerABI.c.o /var/folders/df/v2kw0d8j5jq8w_g2j327hfbr0000gn/T//ccFGxhJU.s]
         ignore line: [COMPILER_PATH=/usr/local/Cellar/gcc/14.2.0_1/bin/../libexec/gcc/x86_64-apple-darwin24/14/:/usr/local/Cellar/gcc/14.2.0_1/bin/../libexec/gcc/]
         ignore line: [LIBRARY_PATH=/usr/local/Cellar/gcc/14.2.0_1/bin/../lib/gcc/current/gcc/x86_64-apple-darwin24/14/:/usr/local/Cellar/gcc/14.2.0_1/bin/../lib/gcc/current/gcc/:/usr/local/Cellar/gcc/14.2.0_1/bin/../lib/gcc/current/gcc/x86_64-apple-darwin24/14/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk' '-v' '-o' 'CMakeFiles/cmTC_5f2f1.dir/CMakeCCompilerABI.c.o' '-c' '-mmacosx-version-min=15.0.0'  '-nodefaultexport' '-mtune=core2' '-dumpdir' 'CMakeFiles/cmTC_5f2f1.dir/CMakeCCompilerABI.c.']
-        ignore line: [[2/2] : && /usr/local/bin/gcc-14 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk -Wl -search_paths_first -Wl -headerpad_max_install_names -v -Wl -v CMakeFiles/cmTC_5f2f1.dir/CMakeCCompilerABI.c.o -o cmTC_5f2f1   && :]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk' '-v' '-o' 'CMakeFiles/cmTC_7d2a4.dir/CMakeCCompilerABI.c.o' '-c' '-mmacosx-version-min=15.0.0'  '-nodefaultexport' '-mtune=core2' '-dumpdir' 'CMakeFiles/cmTC_7d2a4.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_7d2a4]
+        ignore line: [/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7d2a4.dir/link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/local/bin/gcc-14]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/local/Cellar/gcc/14.2.0_1/bin/../libexec/gcc/x86_64-apple-darwin24/14/lto-wrapper]
@@ -239,8 +246,8 @@ events:
         ignore line: [gcc version 14.2.0 (Homebrew GCC 14.2.0_1) ]
         ignore line: [COMPILER_PATH=/usr/local/Cellar/gcc/14.2.0_1/bin/../libexec/gcc/x86_64-apple-darwin24/14/:/usr/local/Cellar/gcc/14.2.0_1/bin/../libexec/gcc/]
         ignore line: [LIBRARY_PATH=/usr/local/Cellar/gcc/14.2.0_1/bin/../lib/gcc/current/gcc/x86_64-apple-darwin24/14/:/usr/local/Cellar/gcc/14.2.0_1/bin/../lib/gcc/current/gcc/:/usr/local/Cellar/gcc/14.2.0_1/bin/../lib/gcc/current/gcc/x86_64-apple-darwin24/14/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk' '-v' '-o' 'cmTC_5f2f1' '-mmacosx-version-min=15.0.0' '-asm_macosx_version_min=15.0' '-nodefaultexport' '-mtune=core2' '-dumpdir' 'cmTC_5f2f1.']
-        link line: [ /usr/local/Cellar/gcc/14.2.0_1/bin/../libexec/gcc/x86_64-apple-darwin24/14/collect2 -demangle -dynamic -arch x86_64 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk -platform_version macos 15.0.0 0.0 -o cmTC_5f2f1 -L/usr/local/Cellar/gcc/14.2.0_1/bin/../lib/gcc/current/gcc/x86_64-apple-darwin24/14 -L/usr/local/Cellar/gcc/14.2.0_1/bin/../lib/gcc/current/gcc -L/usr/local/Cellar/gcc/14.2.0_1/bin/../lib/gcc/current/gcc/x86_64-apple-darwin24/14/../../.. -lemutls_w -lheapt_w -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_5f2f1.dir/CMakeCCompilerABI.c.o -lgcc -lSystem -no_compact_unwind -rpath @loader_path -rpath /usr/local/Cellar/gcc/14.2.0_1/lib/gcc/current/gcc/x86_64-apple-darwin24/14 -rpath /usr/local/Cellar/gcc/14.2.0_1/lib/gcc/current/gcc -rpath /usr/local/Cellar/gcc/14.2.0_1/lib/gcc/current]
+        ignore line: [COLLECT_GCC_OPTIONS='-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk' '-v' '-o' 'cmTC_7d2a4' '-mmacosx-version-min=15.0.0' '-asm_macosx_version_min=15.0' '-nodefaultexport' '-mtune=core2' '-dumpdir' 'cmTC_7d2a4.']
+        link line: [ /usr/local/Cellar/gcc/14.2.0_1/bin/../libexec/gcc/x86_64-apple-darwin24/14/collect2 -demangle -dynamic -arch x86_64 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk -platform_version macos 15.0.0 0.0 -o cmTC_7d2a4 -L/usr/local/Cellar/gcc/14.2.0_1/bin/../lib/gcc/current/gcc/x86_64-apple-darwin24/14 -L/usr/local/Cellar/gcc/14.2.0_1/bin/../lib/gcc/current/gcc -L/usr/local/Cellar/gcc/14.2.0_1/bin/../lib/gcc/current/gcc/x86_64-apple-darwin24/14/../../.. -lemutls_w -lheapt_w -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_7d2a4.dir/CMakeCCompilerABI.c.o -lgcc -lSystem -no_compact_unwind -rpath @loader_path -rpath /usr/local/Cellar/gcc/14.2.0_1/lib/gcc/current/gcc/x86_64-apple-darwin24/14 -rpath /usr/local/Cellar/gcc/14.2.0_1/lib/gcc/current/gcc -rpath /usr/local/Cellar/gcc/14.2.0_1/lib/gcc/current]
           arg [/usr/local/Cellar/gcc/14.2.0_1/bin/../libexec/gcc/x86_64-apple-darwin24/14/collect2] ==> ignore
           arg [-demangle] ==> ignore
           arg [-dynamic] ==> ignore
@@ -253,7 +260,7 @@ events:
           arg [15.0.0] ==> ignore
           arg [0.0] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_5f2f1] ==> ignore
+          arg [cmTC_7d2a4] ==> ignore
           arg [-L/usr/local/Cellar/gcc/14.2.0_1/bin/../lib/gcc/current/gcc/x86_64-apple-darwin24/14] ==> dir [/usr/local/Cellar/gcc/14.2.0_1/bin/../lib/gcc/current/gcc/x86_64-apple-darwin24/14]
           arg [-L/usr/local/Cellar/gcc/14.2.0_1/bin/../lib/gcc/current/gcc] ==> dir [/usr/local/Cellar/gcc/14.2.0_1/bin/../lib/gcc/current/gcc]
           arg [-L/usr/local/Cellar/gcc/14.2.0_1/bin/../lib/gcc/current/gcc/x86_64-apple-darwin24/14/../../..] ==> dir [/usr/local/Cellar/gcc/14.2.0_1/bin/../lib/gcc/current/gcc/x86_64-apple-darwin24/14/../../..]
@@ -262,7 +269,7 @@ events:
           arg [-search_paths_first] ==> ignore
           arg [-headerpad_max_install_names] ==> ignore
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_5f2f1.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_7d2a4.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [-lgcc] ==> lib [gcc]
           arg [-lSystem] ==> lib [System]
           arg [-no_compact_unwind] ==> ignore
@@ -275,7 +282,7 @@ events:
           arg [-rpath] ==> ignore
           arg [/usr/local/Cellar/gcc/14.2.0_1/lib/gcc/current] ==> ignore
         ignore line: [collect2 version 14.2.0]
-        ignore line: [/usr/bin/ld -demangle -dynamic -arch x86_64 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk -platform_version macos 15.0.0 0.0 -o cmTC_5f2f1 -L/usr/local/Cellar/gcc/14.2.0_1/bin/../lib/gcc/current/gcc/x86_64-apple-darwin24/14 -L/usr/local/Cellar/gcc/14.2.0_1/bin/../lib/gcc/current/gcc -L/usr/local/Cellar/gcc/14.2.0_1/bin/../lib/gcc/current/gcc/x86_64-apple-darwin24/14/../../.. -lemutls_w -lheapt_w -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_5f2f1.dir/CMakeCCompilerABI.c.o -lgcc -lSystem -no_compact_unwind -rpath @loader_path -rpath /usr/local/Cellar/gcc/14.2.0_1/lib/gcc/current/gcc/x86_64-apple-darwin24/14 -rpath /usr/local/Cellar/gcc/14.2.0_1/lib/gcc/current/gcc -rpath /usr/local/Cellar/gcc/14.2.0_1/lib/gcc/current]
+        ignore line: [/usr/bin/ld -demangle -dynamic -arch x86_64 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk -platform_version macos 15.0.0 0.0 -o cmTC_7d2a4 -L/usr/local/Cellar/gcc/14.2.0_1/bin/../lib/gcc/current/gcc/x86_64-apple-darwin24/14 -L/usr/local/Cellar/gcc/14.2.0_1/bin/../lib/gcc/current/gcc -L/usr/local/Cellar/gcc/14.2.0_1/bin/../lib/gcc/current/gcc/x86_64-apple-darwin24/14/../../.. -lemutls_w -lheapt_w -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_7d2a4.dir/CMakeCCompilerABI.c.o -lgcc -lSystem -no_compact_unwind -rpath @loader_path -rpath /usr/local/Cellar/gcc/14.2.0_1/lib/gcc/current/gcc/x86_64-apple-darwin24/14 -rpath /usr/local/Cellar/gcc/14.2.0_1/lib/gcc/current/gcc -rpath /usr/local/Cellar/gcc/14.2.0_1/lib/gcc/current]
         linker tool for 'C': /usr/bin/ld
         Library search paths: [;/usr/local/Cellar/gcc/14.2.0_1/lib/gcc/current/gcc/x86_64-apple-darwin24/14;/usr/local/Cellar/gcc/14.2.0_1/lib/gcc/current/gcc;/usr/local/Cellar/gcc/14.2.0_1/lib/gcc/current;/Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/usr/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/usr/lib/swift]
         Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/System/Library/Frameworks]
@@ -319,8 +326,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/Users/arkanight/Desktop/Programac\u0327ao/Cpp Files/RotatingCube/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zMxYFN"
-      binary: "/Users/arkanight/Desktop/Programac\u0327ao/Cpp Files/RotatingCube/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zMxYFN"
+      source: "/Users/arkanight/Desktop/Programac\u0327ao/Cpp Files/RotatingCube/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-worZxc"
+      binary: "/Users/arkanight/Desktop/Programac\u0327ao/Cpp Files/RotatingCube/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-worZxc"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -333,10 +340,12 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/arkanight/Desktop/Programaçao/Cpp Files/RotatingCube/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zMxYFN'
+        Change Dir: '/Users/arkanight/Desktop/Programaçao/Cpp Files/RotatingCube/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-worZxc'
         
-        Run Build Command(s): /Applications/CLion.app/Contents/bin/ninja/mac/x64/ninja -v cmTC_4a0f4
-        [1/2] /usr/local/bin/g++-14   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk -fdiagnostics-color=always   -v -Wl,-v -o CMakeFiles/cmTC_4a0f4.dir/CMakeCXXCompilerABI.cpp.o -c /Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_5f28e/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_5f28e.dir/build.make CMakeFiles/cmTC_5f28e.dir/build
+        Building CXX object CMakeFiles/cmTC_5f28e.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/local/bin/g++-14   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk -fdiagnostics-color=always   -v -Wl,-v -o CMakeFiles/cmTC_5f28e.dir/CMakeCXXCompilerABI.cpp.o -c /Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/usr/local/bin/g++-14
         Target: x86_64-apple-darwin24
@@ -344,8 +353,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 14.2.0 (Homebrew GCC 14.2.0_1) 
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk' '-v' '-o' 'CMakeFiles/cmTC_4a0f4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mmacosx-version-min=15.0.0' '-asm_macosx_version_min=15.0' '-nodefaultexport' '-shared-libgcc' '-mtune=core2' '-dumpdir' 'CMakeFiles/cmTC_4a0f4.dir/'
-         /usr/local/Cellar/gcc/14.2.0_1/bin/../libexec/gcc/x86_64-apple-darwin24/14/cc1plus -quiet -v -iprefix /usr/local/Cellar/gcc/14.2.0_1/bin/../lib/gcc/current/gcc/x86_64-apple-darwin24/14/ -D__DYNAMIC__ -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk /Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp -fPIC -quiet -dumpdir CMakeFiles/cmTC_4a0f4.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mmacosx-version-min=15.0.0 -mtune=core2 -version -fdiagnostics-color=always -o /var/folders/df/v2kw0d8j5jq8w_g2j327hfbr0000gn/T//ccITUxi0.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk' '-v' '-o' 'CMakeFiles/cmTC_5f28e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mmacosx-version-min=15.0.0' '-asm_macosx_version_min=15.0' '-nodefaultexport' '-shared-libgcc' '-mtune=core2' '-dumpdir' 'CMakeFiles/cmTC_5f28e.dir/'
+         /usr/local/Cellar/gcc/14.2.0_1/bin/../libexec/gcc/x86_64-apple-darwin24/14/cc1plus -quiet -v -iprefix /usr/local/Cellar/gcc/14.2.0_1/bin/../lib/gcc/current/gcc/x86_64-apple-darwin24/14/ -D__DYNAMIC__ -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk /Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp -fPIC -quiet -dumpdir CMakeFiles/cmTC_5f28e.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mmacosx-version-min=15.0.0 -mtune=core2 -version -fdiagnostics-color=always -o /var/folders/df/v2kw0d8j5jq8w_g2j327hfbr0000gn/T//cca1ycXR.s
         GNU C++17 (Homebrew GCC 14.2.0_1) version 14.2.0 (x86_64-apple-darwin24)
         	compiled by GNU C version 14.2.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version isl-0.27-GMP
         
@@ -370,17 +379,18 @@ events:
          /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/System/Library/Frameworks
         End of search list.
         Compiler executable checksum: 0e6d96b983337db79b3dac67b9b44a86
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk' '-v' '-o' 'CMakeFiles/cmTC_4a0f4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mmacosx-version-min=15.0.0'  '-nodefaultexport' '-shared-libgcc' '-mtune=core2' '-dumpdir' 'CMakeFiles/cmTC_4a0f4.dir/'
-         as -arch x86_64 -v -mmacosx-version-min=15.0 -mllvm -x86-pad-for-align=false -force_cpusubtype_ALL -o CMakeFiles/cmTC_4a0f4.dir/CMakeCXXCompilerABI.cpp.o /var/folders/df/v2kw0d8j5jq8w_g2j327hfbr0000gn/T//ccITUxi0.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk' '-v' '-o' 'CMakeFiles/cmTC_5f28e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mmacosx-version-min=15.0.0'  '-nodefaultexport' '-shared-libgcc' '-mtune=core2' '-dumpdir' 'CMakeFiles/cmTC_5f28e.dir/'
+         as -arch x86_64 -v -mmacosx-version-min=15.0 -mllvm -x86-pad-for-align=false -force_cpusubtype_ALL -o CMakeFiles/cmTC_5f28e.dir/CMakeCXXCompilerABI.cpp.o /var/folders/df/v2kw0d8j5jq8w_g2j327hfbr0000gn/T//cca1ycXR.s
         Apple clang version 17.0.0 (clang-1700.0.13.3)
         Target: x86_64-apple-darwin24.4.0
         Thread model: posix
         InstalledDir: /Library/Developer/CommandLineTools/usr/bin
-         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1as -triple x86_64-apple-macosx15.0.0 -target-sdk-version=15.4 -filetype obj -main-file-name ccITUxi0.s -target-cpu penryn "-fdebug-compilation-dir=/Users/arkanight/Desktop/Programaçao/Cpp Files/RotatingCube/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zMxYFN" -dwarf-debug-producer "Apple clang version 17.0.0 (clang-1700.0.13.3)" -dwarf-version=5 -mrelocation-model pic -mllvm -x86-pad-for-align=false -o CMakeFiles/cmTC_4a0f4.dir/CMakeCXXCompilerABI.cpp.o /var/folders/df/v2kw0d8j5jq8w_g2j327hfbr0000gn/T//ccITUxi0.s
+         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1as -triple x86_64-apple-macosx15.0.0 -target-sdk-version=15.4 -filetype obj -main-file-name cca1ycXR.s -target-cpu penryn "-fdebug-compilation-dir=/Users/arkanight/Desktop/Programaçao/Cpp Files/RotatingCube/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-worZxc" -dwarf-debug-producer "Apple clang version 17.0.0 (clang-1700.0.13.3)" -dwarf-version=5 -mrelocation-model pic -mllvm -x86-pad-for-align=false -o CMakeFiles/cmTC_5f28e.dir/CMakeCXXCompilerABI.cpp.o /var/folders/df/v2kw0d8j5jq8w_g2j327hfbr0000gn/T//cca1ycXR.s
         COMPILER_PATH=/usr/local/Cellar/gcc/14.2.0_1/bin/../libexec/gcc/x86_64-apple-darwin24/14/:/usr/local/Cellar/gcc/14.2.0_1/bin/../libexec/gcc/
         LIBRARY_PATH=/usr/local/Cellar/gcc/14.2.0_1/bin/../lib/gcc/current/gcc/x86_64-apple-darwin24/14/:/usr/local/Cellar/gcc/14.2.0_1/bin/../lib/gcc/current/gcc/:/usr/local/Cellar/gcc/14.2.0_1/bin/../lib/gcc/current/gcc/x86_64-apple-darwin24/14/../../../
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk' '-v' '-o' 'CMakeFiles/cmTC_4a0f4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mmacosx-version-min=15.0.0'  '-nodefaultexport' '-shared-libgcc' '-mtune=core2' '-dumpdir' 'CMakeFiles/cmTC_4a0f4.dir/CMakeCXXCompilerABI.cpp.'
-        [2/2] : && /usr/local/bin/g++-14 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v -Wl,-v CMakeFiles/cmTC_4a0f4.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_4a0f4   && :
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk' '-v' '-o' 'CMakeFiles/cmTC_5f28e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mmacosx-version-min=15.0.0'  '-nodefaultexport' '-shared-libgcc' '-mtune=core2' '-dumpdir' 'CMakeFiles/cmTC_5f28e.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_5f28e
+        /Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f28e.dir/link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=/usr/local/bin/g++-14
         COLLECT_LTO_WRAPPER=/usr/local/Cellar/gcc/14.2.0_1/bin/../libexec/gcc/x86_64-apple-darwin24/14/lto-wrapper
@@ -391,10 +401,10 @@ events:
         gcc version 14.2.0 (Homebrew GCC 14.2.0_1) 
         COMPILER_PATH=/usr/local/Cellar/gcc/14.2.0_1/bin/../libexec/gcc/x86_64-apple-darwin24/14/:/usr/local/Cellar/gcc/14.2.0_1/bin/../libexec/gcc/
         LIBRARY_PATH=/usr/local/Cellar/gcc/14.2.0_1/bin/../lib/gcc/current/gcc/x86_64-apple-darwin24/14/:/usr/local/Cellar/gcc/14.2.0_1/bin/../lib/gcc/current/gcc/:/usr/local/Cellar/gcc/14.2.0_1/bin/../lib/gcc/current/gcc/x86_64-apple-darwin24/14/../../../
-        COLLECT_GCC_OPTIONS='-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk' '-v' '-o' 'cmTC_4a0f4' '-mmacosx-version-min=15.0.0' '-asm_macosx_version_min=15.0' '-nodefaultexport' '-shared-libgcc' '-mtune=core2' '-dumpdir' 'cmTC_4a0f4.'
-         /usr/local/Cellar/gcc/14.2.0_1/bin/../libexec/gcc/x86_64-apple-darwin24/14/collect2 -demangle -dynamic -arch x86_64 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk -platform_version macos 15.0.0 0.0 -o cmTC_4a0f4 -L/usr/local/Cellar/gcc/14.2.0_1/bin/../lib/gcc/current/gcc/x86_64-apple-darwin24/14 -L/usr/local/Cellar/gcc/14.2.0_1/bin/../lib/gcc/current/gcc -L/usr/local/Cellar/gcc/14.2.0_1/bin/../lib/gcc/current/gcc/x86_64-apple-darwin24/14/../../.. -lemutls_w -lheapt_w -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_4a0f4.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lgcc_s.1.1 -lgcc -lSystem -no_compact_unwind -rpath @loader_path -rpath /usr/local/Cellar/gcc/14.2.0_1/lib/gcc/current/gcc/x86_64-apple-darwin24/14 -rpath /usr/local/Cellar/gcc/14.2.0_1/lib/gcc/current/gcc -rpath /usr/local/Cellar/gcc/14.2.0_1/lib/gcc/current
+        COLLECT_GCC_OPTIONS='-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk' '-v' '-o' 'cmTC_5f28e' '-mmacosx-version-min=15.0.0' '-asm_macosx_version_min=15.0' '-nodefaultexport' '-shared-libgcc' '-mtune=core2' '-dumpdir' 'cmTC_5f28e.'
+         /usr/local/Cellar/gcc/14.2.0_1/bin/../libexec/gcc/x86_64-apple-darwin24/14/collect2 -demangle -dynamic -arch x86_64 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk -platform_version macos 15.0.0 0.0 -o cmTC_5f28e -L/usr/local/Cellar/gcc/14.2.0_1/bin/../lib/gcc/current/gcc/x86_64-apple-darwin24/14 -L/usr/local/Cellar/gcc/14.2.0_1/bin/../lib/gcc/current/gcc -L/usr/local/Cellar/gcc/14.2.0_1/bin/../lib/gcc/current/gcc/x86_64-apple-darwin24/14/../../.. -lemutls_w -lheapt_w -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_5f28e.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lgcc_s.1.1 -lgcc -lSystem -no_compact_unwind -rpath @loader_path -rpath /usr/local/Cellar/gcc/14.2.0_1/lib/gcc/current/gcc/x86_64-apple-darwin24/14 -rpath /usr/local/Cellar/gcc/14.2.0_1/lib/gcc/current/gcc -rpath /usr/local/Cellar/gcc/14.2.0_1/lib/gcc/current
         collect2 version 14.2.0
-        /usr/bin/ld -demangle -dynamic -arch x86_64 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk -platform_version macos 15.0.0 0.0 -o cmTC_4a0f4 -L/usr/local/Cellar/gcc/14.2.0_1/bin/../lib/gcc/current/gcc/x86_64-apple-darwin24/14 -L/usr/local/Cellar/gcc/14.2.0_1/bin/../lib/gcc/current/gcc -L/usr/local/Cellar/gcc/14.2.0_1/bin/../lib/gcc/current/gcc/x86_64-apple-darwin24/14/../../.. -lemutls_w -lheapt_w -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_4a0f4.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lgcc_s.1.1 -lgcc -lSystem -no_compact_unwind -rpath @loader_path -rpath /usr/local/Cellar/gcc/14.2.0_1/lib/gcc/current/gcc/x86_64-apple-darwin24/14 -rpath /usr/local/Cellar/gcc/14.2.0_1/lib/gcc/current/gcc -rpath /usr/local/Cellar/gcc/14.2.0_1/lib/gcc/current
+        /usr/bin/ld -demangle -dynamic -arch x86_64 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk -platform_version macos 15.0.0 0.0 -o cmTC_5f28e -L/usr/local/Cellar/gcc/14.2.0_1/bin/../lib/gcc/current/gcc/x86_64-apple-darwin24/14 -L/usr/local/Cellar/gcc/14.2.0_1/bin/../lib/gcc/current/gcc -L/usr/local/Cellar/gcc/14.2.0_1/bin/../lib/gcc/current/gcc/x86_64-apple-darwin24/14/../../.. -lemutls_w -lheapt_w -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_5f28e.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lgcc_s.1.1 -lgcc -lSystem -no_compact_unwind -rpath @loader_path -rpath /usr/local/Cellar/gcc/14.2.0_1/lib/gcc/current/gcc/x86_64-apple-darwin24/14 -rpath /usr/local/Cellar/gcc/14.2.0_1/lib/gcc/current/gcc -rpath /usr/local/Cellar/gcc/14.2.0_1/lib/gcc/current
         @(#)PROGRAM:ld PROJECT:ld-1167.4.1
         BUILD 19:59:02 Mar 12 2025
         configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
@@ -409,6 +419,7 @@ events:
         	/Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/usr/lib/swift
         Framework search paths:
         	/Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/System/Library/Frameworks
+        /usr/local/bin/g++-14  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_5f28e.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_5f28e
         
       exitCode: 0
   -
@@ -458,10 +469,12 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
-        ignore line: [Change Dir: '/Users/arkanight/Desktop/Programaçao/Cpp Files/RotatingCube/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zMxYFN']
+        ignore line: [Change Dir: '/Users/arkanight/Desktop/Programaçao/Cpp Files/RotatingCube/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-worZxc']
         ignore line: []
-        ignore line: [Run Build Command(s): /Applications/CLion.app/Contents/bin/ninja/mac/x64/ninja -v cmTC_4a0f4]
-        ignore line: [[1/2] /usr/local/bin/g++-14   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk -fdiagnostics-color=always   -v -Wl -v -o CMakeFiles/cmTC_4a0f4.dir/CMakeCXXCompilerABI.cpp.o -c /Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_5f28e/fast]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_5f28e.dir/build.make CMakeFiles/cmTC_5f28e.dir/build]
+        ignore line: [Building CXX object CMakeFiles/cmTC_5f28e.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/local/bin/g++-14   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk -fdiagnostics-color=always   -v -Wl -v -o CMakeFiles/cmTC_5f28e.dir/CMakeCXXCompilerABI.cpp.o -c /Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/local/bin/g++-14]
         ignore line: [Target: x86_64-apple-darwin24]
@@ -469,8 +482,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 14.2.0 (Homebrew GCC 14.2.0_1) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk' '-v' '-o' 'CMakeFiles/cmTC_4a0f4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mmacosx-version-min=15.0.0' '-asm_macosx_version_min=15.0' '-nodefaultexport' '-shared-libgcc' '-mtune=core2' '-dumpdir' 'CMakeFiles/cmTC_4a0f4.dir/']
-        ignore line: [ /usr/local/Cellar/gcc/14.2.0_1/bin/../libexec/gcc/x86_64-apple-darwin24/14/cc1plus -quiet -v -iprefix /usr/local/Cellar/gcc/14.2.0_1/bin/../lib/gcc/current/gcc/x86_64-apple-darwin24/14/ -D__DYNAMIC__ -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk /Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp -fPIC -quiet -dumpdir CMakeFiles/cmTC_4a0f4.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mmacosx-version-min=15.0.0 -mtune=core2 -version -fdiagnostics-color=always -o /var/folders/df/v2kw0d8j5jq8w_g2j327hfbr0000gn/T//ccITUxi0.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk' '-v' '-o' 'CMakeFiles/cmTC_5f28e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mmacosx-version-min=15.0.0' '-asm_macosx_version_min=15.0' '-nodefaultexport' '-shared-libgcc' '-mtune=core2' '-dumpdir' 'CMakeFiles/cmTC_5f28e.dir/']
+        ignore line: [ /usr/local/Cellar/gcc/14.2.0_1/bin/../libexec/gcc/x86_64-apple-darwin24/14/cc1plus -quiet -v -iprefix /usr/local/Cellar/gcc/14.2.0_1/bin/../lib/gcc/current/gcc/x86_64-apple-darwin24/14/ -D__DYNAMIC__ -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk /Applications/CLion.app/Contents/bin/cmake/mac/x64/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp -fPIC -quiet -dumpdir CMakeFiles/cmTC_5f28e.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mmacosx-version-min=15.0.0 -mtune=core2 -version -fdiagnostics-color=always -o /var/folders/df/v2kw0d8j5jq8w_g2j327hfbr0000gn/T//cca1ycXR.s]
         ignore line: [GNU C++17 (Homebrew GCC 14.2.0_1) version 14.2.0 (x86_64-apple-darwin24)]
         ignore line: [	compiled by GNU C version 14.2.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.3.1  isl version isl-0.27-GMP]
         ignore line: []
@@ -495,17 +508,18 @@ events:
         ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/System/Library/Frameworks]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 0e6d96b983337db79b3dac67b9b44a86]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk' '-v' '-o' 'CMakeFiles/cmTC_4a0f4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mmacosx-version-min=15.0.0'  '-nodefaultexport' '-shared-libgcc' '-mtune=core2' '-dumpdir' 'CMakeFiles/cmTC_4a0f4.dir/']
-        ignore line: [ as -arch x86_64 -v -mmacosx-version-min=15.0 -mllvm -x86-pad-for-align=false -force_cpusubtype_ALL -o CMakeFiles/cmTC_4a0f4.dir/CMakeCXXCompilerABI.cpp.o /var/folders/df/v2kw0d8j5jq8w_g2j327hfbr0000gn/T//ccITUxi0.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk' '-v' '-o' 'CMakeFiles/cmTC_5f28e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mmacosx-version-min=15.0.0'  '-nodefaultexport' '-shared-libgcc' '-mtune=core2' '-dumpdir' 'CMakeFiles/cmTC_5f28e.dir/']
+        ignore line: [ as -arch x86_64 -v -mmacosx-version-min=15.0 -mllvm -x86-pad-for-align=false -force_cpusubtype_ALL -o CMakeFiles/cmTC_5f28e.dir/CMakeCXXCompilerABI.cpp.o /var/folders/df/v2kw0d8j5jq8w_g2j327hfbr0000gn/T//cca1ycXR.s]
         ignore line: [Apple clang version 17.0.0 (clang-1700.0.13.3)]
         ignore line: [Target: x86_64-apple-darwin24.4.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
-        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1as -triple x86_64-apple-macosx15.0.0 -target-sdk-version=15.4 -filetype obj -main-file-name ccITUxi0.s -target-cpu penryn "-fdebug-compilation-dir=/Users/arkanight/Desktop/Programaçao/Cpp Files/RotatingCube/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zMxYFN" -dwarf-debug-producer "Apple clang version 17.0.0 (clang-1700.0.13.3)" -dwarf-version=5 -mrelocation-model pic -mllvm -x86-pad-for-align=false -o CMakeFiles/cmTC_4a0f4.dir/CMakeCXXCompilerABI.cpp.o /var/folders/df/v2kw0d8j5jq8w_g2j327hfbr0000gn/T//ccITUxi0.s]
+        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1as -triple x86_64-apple-macosx15.0.0 -target-sdk-version=15.4 -filetype obj -main-file-name cca1ycXR.s -target-cpu penryn "-fdebug-compilation-dir=/Users/arkanight/Desktop/Programaçao/Cpp Files/RotatingCube/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-worZxc" -dwarf-debug-producer "Apple clang version 17.0.0 (clang-1700.0.13.3)" -dwarf-version=5 -mrelocation-model pic -mllvm -x86-pad-for-align=false -o CMakeFiles/cmTC_5f28e.dir/CMakeCXXCompilerABI.cpp.o /var/folders/df/v2kw0d8j5jq8w_g2j327hfbr0000gn/T//cca1ycXR.s]
         ignore line: [COMPILER_PATH=/usr/local/Cellar/gcc/14.2.0_1/bin/../libexec/gcc/x86_64-apple-darwin24/14/:/usr/local/Cellar/gcc/14.2.0_1/bin/../libexec/gcc/]
         ignore line: [LIBRARY_PATH=/usr/local/Cellar/gcc/14.2.0_1/bin/../lib/gcc/current/gcc/x86_64-apple-darwin24/14/:/usr/local/Cellar/gcc/14.2.0_1/bin/../lib/gcc/current/gcc/:/usr/local/Cellar/gcc/14.2.0_1/bin/../lib/gcc/current/gcc/x86_64-apple-darwin24/14/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk' '-v' '-o' 'CMakeFiles/cmTC_4a0f4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mmacosx-version-min=15.0.0'  '-nodefaultexport' '-shared-libgcc' '-mtune=core2' '-dumpdir' 'CMakeFiles/cmTC_4a0f4.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [[2/2] : && /usr/local/bin/g++-14 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk -Wl -search_paths_first -Wl -headerpad_max_install_names -v -Wl -v CMakeFiles/cmTC_4a0f4.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_4a0f4   && :]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk' '-v' '-o' 'CMakeFiles/cmTC_5f28e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mmacosx-version-min=15.0.0'  '-nodefaultexport' '-shared-libgcc' '-mtune=core2' '-dumpdir' 'CMakeFiles/cmTC_5f28e.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_5f28e]
+        ignore line: [/Applications/CLion.app/Contents/bin/cmake/mac/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f28e.dir/link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/local/bin/g++-14]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/local/Cellar/gcc/14.2.0_1/bin/../libexec/gcc/x86_64-apple-darwin24/14/lto-wrapper]
@@ -516,8 +530,8 @@ events:
         ignore line: [gcc version 14.2.0 (Homebrew GCC 14.2.0_1) ]
         ignore line: [COMPILER_PATH=/usr/local/Cellar/gcc/14.2.0_1/bin/../libexec/gcc/x86_64-apple-darwin24/14/:/usr/local/Cellar/gcc/14.2.0_1/bin/../libexec/gcc/]
         ignore line: [LIBRARY_PATH=/usr/local/Cellar/gcc/14.2.0_1/bin/../lib/gcc/current/gcc/x86_64-apple-darwin24/14/:/usr/local/Cellar/gcc/14.2.0_1/bin/../lib/gcc/current/gcc/:/usr/local/Cellar/gcc/14.2.0_1/bin/../lib/gcc/current/gcc/x86_64-apple-darwin24/14/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk' '-v' '-o' 'cmTC_4a0f4' '-mmacosx-version-min=15.0.0' '-asm_macosx_version_min=15.0' '-nodefaultexport' '-shared-libgcc' '-mtune=core2' '-dumpdir' 'cmTC_4a0f4.']
-        link line: [ /usr/local/Cellar/gcc/14.2.0_1/bin/../libexec/gcc/x86_64-apple-darwin24/14/collect2 -demangle -dynamic -arch x86_64 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk -platform_version macos 15.0.0 0.0 -o cmTC_4a0f4 -L/usr/local/Cellar/gcc/14.2.0_1/bin/../lib/gcc/current/gcc/x86_64-apple-darwin24/14 -L/usr/local/Cellar/gcc/14.2.0_1/bin/../lib/gcc/current/gcc -L/usr/local/Cellar/gcc/14.2.0_1/bin/../lib/gcc/current/gcc/x86_64-apple-darwin24/14/../../.. -lemutls_w -lheapt_w -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_4a0f4.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lgcc_s.1.1 -lgcc -lSystem -no_compact_unwind -rpath @loader_path -rpath /usr/local/Cellar/gcc/14.2.0_1/lib/gcc/current/gcc/x86_64-apple-darwin24/14 -rpath /usr/local/Cellar/gcc/14.2.0_1/lib/gcc/current/gcc -rpath /usr/local/Cellar/gcc/14.2.0_1/lib/gcc/current]
+        ignore line: [COLLECT_GCC_OPTIONS='-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk' '-v' '-o' 'cmTC_5f28e' '-mmacosx-version-min=15.0.0' '-asm_macosx_version_min=15.0' '-nodefaultexport' '-shared-libgcc' '-mtune=core2' '-dumpdir' 'cmTC_5f28e.']
+        link line: [ /usr/local/Cellar/gcc/14.2.0_1/bin/../libexec/gcc/x86_64-apple-darwin24/14/collect2 -demangle -dynamic -arch x86_64 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk -platform_version macos 15.0.0 0.0 -o cmTC_5f28e -L/usr/local/Cellar/gcc/14.2.0_1/bin/../lib/gcc/current/gcc/x86_64-apple-darwin24/14 -L/usr/local/Cellar/gcc/14.2.0_1/bin/../lib/gcc/current/gcc -L/usr/local/Cellar/gcc/14.2.0_1/bin/../lib/gcc/current/gcc/x86_64-apple-darwin24/14/../../.. -lemutls_w -lheapt_w -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_5f28e.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lgcc_s.1.1 -lgcc -lSystem -no_compact_unwind -rpath @loader_path -rpath /usr/local/Cellar/gcc/14.2.0_1/lib/gcc/current/gcc/x86_64-apple-darwin24/14 -rpath /usr/local/Cellar/gcc/14.2.0_1/lib/gcc/current/gcc -rpath /usr/local/Cellar/gcc/14.2.0_1/lib/gcc/current]
           arg [/usr/local/Cellar/gcc/14.2.0_1/bin/../libexec/gcc/x86_64-apple-darwin24/14/collect2] ==> ignore
           arg [-demangle] ==> ignore
           arg [-dynamic] ==> ignore
@@ -530,7 +544,7 @@ events:
           arg [15.0.0] ==> ignore
           arg [0.0] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_4a0f4] ==> ignore
+          arg [cmTC_5f28e] ==> ignore
           arg [-L/usr/local/Cellar/gcc/14.2.0_1/bin/../lib/gcc/current/gcc/x86_64-apple-darwin24/14] ==> dir [/usr/local/Cellar/gcc/14.2.0_1/bin/../lib/gcc/current/gcc/x86_64-apple-darwin24/14]
           arg [-L/usr/local/Cellar/gcc/14.2.0_1/bin/../lib/gcc/current/gcc] ==> dir [/usr/local/Cellar/gcc/14.2.0_1/bin/../lib/gcc/current/gcc]
           arg [-L/usr/local/Cellar/gcc/14.2.0_1/bin/../lib/gcc/current/gcc/x86_64-apple-darwin24/14/../../..] ==> dir [/usr/local/Cellar/gcc/14.2.0_1/bin/../lib/gcc/current/gcc/x86_64-apple-darwin24/14/../../..]
@@ -539,7 +553,7 @@ events:
           arg [-search_paths_first] ==> ignore
           arg [-headerpad_max_install_names] ==> ignore
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_4a0f4.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_5f28e.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lgcc_s.1.1] ==> lib [gcc_s.1.1]
           arg [-lgcc] ==> lib [gcc]
@@ -554,7 +568,7 @@ events:
           arg [-rpath] ==> ignore
           arg [/usr/local/Cellar/gcc/14.2.0_1/lib/gcc/current] ==> ignore
         ignore line: [collect2 version 14.2.0]
-        ignore line: [/usr/bin/ld -demangle -dynamic -arch x86_64 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk -platform_version macos 15.0.0 0.0 -o cmTC_4a0f4 -L/usr/local/Cellar/gcc/14.2.0_1/bin/../lib/gcc/current/gcc/x86_64-apple-darwin24/14 -L/usr/local/Cellar/gcc/14.2.0_1/bin/../lib/gcc/current/gcc -L/usr/local/Cellar/gcc/14.2.0_1/bin/../lib/gcc/current/gcc/x86_64-apple-darwin24/14/../../.. -lemutls_w -lheapt_w -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_4a0f4.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lgcc_s.1.1 -lgcc -lSystem -no_compact_unwind -rpath @loader_path -rpath /usr/local/Cellar/gcc/14.2.0_1/lib/gcc/current/gcc/x86_64-apple-darwin24/14 -rpath /usr/local/Cellar/gcc/14.2.0_1/lib/gcc/current/gcc -rpath /usr/local/Cellar/gcc/14.2.0_1/lib/gcc/current]
+        ignore line: [/usr/bin/ld -demangle -dynamic -arch x86_64 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk -platform_version macos 15.0.0 0.0 -o cmTC_5f28e -L/usr/local/Cellar/gcc/14.2.0_1/bin/../lib/gcc/current/gcc/x86_64-apple-darwin24/14 -L/usr/local/Cellar/gcc/14.2.0_1/bin/../lib/gcc/current/gcc -L/usr/local/Cellar/gcc/14.2.0_1/bin/../lib/gcc/current/gcc/x86_64-apple-darwin24/14/../../.. -lemutls_w -lheapt_w -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_5f28e.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lgcc_s.1.1 -lgcc -lSystem -no_compact_unwind -rpath @loader_path -rpath /usr/local/Cellar/gcc/14.2.0_1/lib/gcc/current/gcc/x86_64-apple-darwin24/14 -rpath /usr/local/Cellar/gcc/14.2.0_1/lib/gcc/current/gcc -rpath /usr/local/Cellar/gcc/14.2.0_1/lib/gcc/current]
         linker tool for 'CXX': /usr/bin/ld
         Library search paths: [;/usr/local/Cellar/gcc/14.2.0_1/lib/gcc/current/gcc/x86_64-apple-darwin24/14;/usr/local/Cellar/gcc/14.2.0_1/lib/gcc/current/gcc;/usr/local/Cellar/gcc/14.2.0_1/lib/gcc/current;/Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/usr/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/usr/lib/swift]
         Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk/System/Library/Frameworks]
