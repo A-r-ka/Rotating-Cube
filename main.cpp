@@ -4,6 +4,7 @@
 
 #include <iostream>
 #include <cstring>
+#include <math.h>
 #include <unistd.h>
 #include "CubeSurface.hpp"
 
@@ -35,6 +36,9 @@ void Clear();
     const CubeSurface cubeSurface6(buffer, zBuffer, WIDTH, HEIGHT, CUBE_SIZE, DISTANCE_FROM_CAM, '%');
 
     while (true) {
+
+        if (angle > 2 * M_PI) { angle = 0; }
+
         memset(buffer, ' ', WIDTH * HEIGHT);
         memset(zBuffer, 0, WIDTH * HEIGHT * 4);
         Clear();
