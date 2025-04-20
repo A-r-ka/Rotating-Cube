@@ -1,3 +1,0 @@
-/Users/arkanight/Desktop/Programaçao/Cpp Files/RotatingCube/cmake-build-debug/CMakeFiles/RotatingCube.dir
-/Users/arkanight/Desktop/Programaçao/Cpp Files/RotatingCube/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/arkanight/Desktop/Programaçao/Cpp Files/RotatingCube/cmake-build-debug/CMakeFiles/rebuild_cache.dir

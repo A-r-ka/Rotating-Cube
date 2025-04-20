@@ -1,1 +1,0 @@
-/usr/local/bin/g++-14 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/RotatingCube.dir/main.cpp.o CMakeFiles/RotatingCube.dir/definitions/CubeSurface.cpp.o CMakeFiles/RotatingCube.dir/definitions/MatrixOperations.cpp.o -o RotatingCube
