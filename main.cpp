@@ -13,6 +13,7 @@
 #define SURFACE_CHAR '*'
 #define SURFACE_COLOR "35"
 #define ANGLE_INCREMENT 0.02
+#define TIME_LOOP 10000
 #define PERSPECTIVE 40
 #define DISTANCE_FROM_CAM 100
 #define INCREMENT_SPEED 0.5
@@ -52,7 +53,7 @@ void Clear();
 
         angle += ANGLE_INCREMENT;
         printBuffer(buffer, WIDTH, HEIGHT);
-        usleep(10000);
+        usleep(TIME_LOOP);
 
     }
 
