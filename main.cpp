@@ -21,7 +21,7 @@ using namespace std;
 
 void printBuffer(const char* buffer, int width, int height);
 
-void main() {
+[[noreturn]] int main() {
     char buffer[WIDTH * HEIGHT];
     float zBuffer[WIDTH * HEIGHT];
     float angle = 0;
