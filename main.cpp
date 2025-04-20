@@ -19,7 +19,7 @@ using namespace std;
 
 void printBuffer(const char* buffer, int width, int height);
 
-int main() {
+void main() {
     char buffer[WIDTH * HEIGHT];
     float zBuffer[WIDTH * HEIGHT];
     float angle = 0;
@@ -52,7 +52,6 @@ int main() {
 
     }
 
-    return 0;
 }
 
 void printBuffer(const char* buffer, const int width, const int height) {
