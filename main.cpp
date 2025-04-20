@@ -20,6 +20,7 @@
 using namespace std;
 
 void printBuffer(const char* buffer, int width, int height);
+void Clear();
 
 [[noreturn]] int main() {
     char buffer[WIDTH * HEIGHT];
@@ -35,7 +36,8 @@ void printBuffer(const char* buffer, int width, int height);
     while (true) {
         memset(buffer, ' ', WIDTH * HEIGHT);
         memset(zBuffer, 0, WIDTH * HEIGHT * 4);
-        cout << "\x1b[2J\x1b[H\x1b[" << SURFACE_COLOR << "m";
+        Clear();
+        cout << "\x1b[" << SURFACE_COLOR << "m";
 
         for (float cubeX = -CUBE_SIZE; cubeX < CUBE_SIZE; cubeX += INCREMENT_SPEED) {
             for (float cubeY = -CUBE_SIZE; cubeY < CUBE_SIZE; cubeY += INCREMENT_SPEED) {
@@ -54,6 +56,19 @@ void printBuffer(const char* buffer, int width, int height);
 
     }
 
+}
+
+void Clear()
+{
+#if defined _WIN32
+    system("cls");
+    //clrscr(); // including header file : conio.h
+#elif defined (__LINUX__) || defined(__gnu_linux__) || defined(__linux__)
+    system("clear");
+    //std::cout<< u8"\033[2J\033[1;1H"; //Using ANSI Escape Sequences
+#elif defined (__APPLE__)
+    system("clear");
+#endif
 }
 
 void printBuffer(const char* buffer, const int width, const int height) {
