@@ -4,7 +4,7 @@
 
 #include <iostream>
 #include <cstring>
-#include <math.h>
+#include <cmath>
 #include <unistd.h>
 #include "CubeSurface.hpp"
 
